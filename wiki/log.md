@@ -12,6 +12,25 @@
 
 ---
 
+## [2026-05-03] query→topic | RAG vs LLM Wiki 선택 가이드
+- created: wiki/topics/rag-vs-llm-wiki.md
+- updated: wiki/index.md
+- query: "둘 중 언제 무엇을 써야 하나?"
+- synthesis: rag.md + llm-wiki-pattern.md + farzapedia.md + 두 summary
+- note: Phase 3 — 가상 질의의 답변을 재사용 가치가 있다고 판단해 topic 페이지로 승격. 이로써 첫 topic 페이지 등장.
+
+## [2026-05-03] lint | 첫 정합성 점검 (8 페이지 대상)
+- 점검 범위: wiki/concepts/*.md (3) + wiki/entities/*.md (2) + wiki/summaries/*.md (2) + wiki/topics/*.md (1)
+- ✅ orphans: 없음 (모든 페이지 inbound 4~8개)
+- ✅ broken internal links: 없음 (스크립트 점검)
+- ✅ contradictions: 없음 (10~15 vs 2~3 fan-out 차이는 이미 추론으로 명시됨)
+- ✅ 노후 진술: 없음
+- ⚠️ 한국어 anchor 링크 (예: `#4가지-장점-karpathy-후속-발언`): 마크다운 렌더러에 따라 슬러그화가 다를 수 있음. 현재는 보고만.
+- 📌 신규 페이지 후보:
+  - `concepts/memex.md` 또는 `entities/vannevar-bush.md`: 두 출처 모두에서 핵심 사상 계보로 언급 (현재 외부 wikipedia 링크만)
+  - `entities/licklider.md`: GeekNews 출처에서 언급. 현재 외부 링크만.
+- action: 보고만. 자동 수정 없음 (CLAUDE.md §4.3 정책).
+
 ## [2026-05-03] ingest | GeekNews — LLM-Wiki 토픽 (본문 + 댓글)
 - source: `2026-geeknews-llm-wiki-topic` (`sources/articles/2026-geeknews-llm-wiki-topic.md`)
 - created: wiki/summaries/geeknews-llm-wiki-topic.md

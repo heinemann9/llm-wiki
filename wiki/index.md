@@ -22,7 +22,7 @@
 ## Topics (주제)
 > 여러 개념·개체를 가로지르는 종합 페이지. Query 결과 중 재사용 가치 있는 것을 승격.
 
-_(아직 없음)_
+- [RAG vs LLM Wiki 패턴 — 선택 가이드](topics/rag-vs-llm-wiki.md) — 둘 중 언제 무엇을 써야 하나? RAG/LLM Wiki/Farzapedia 합성 (sources: 2)
 
 ## Summaries (원문 요약)
 > `sources/` 의 각 원문에 대한 1:1 요약 페이지.
