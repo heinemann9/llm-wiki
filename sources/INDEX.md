@@ -17,6 +17,17 @@
 
 ---
 
+## 2026-geeknews-llm-wiki-topic
+- title: LLM-Wiki - LLM을 활용하여 개인 지식저장소 구축 하기
+- type: article (community discussion)
+- url: https://news.hada.io/topic?id=28208
+- posted_by: GN+ (neo)
+- posted_at: ~2026-04-04 (29일전, 2026-05-03 fetch 기준)
+- ingested: 2026-05-03
+- path: sources/articles/2026-geeknews-llm-wiki-topic.md
+- summary: wiki/summaries/geeknews-llm-wiki-topic.md
+- note: Karpathy gist (`2026-karpathy-llm-wiki`)의 한국어 정리 + 댓글(한국 + HN 번역). 본문은 원 gist와 거의 동일하나, Karpathy 후속 발언·비판·실구현 사례·사상 계보 추가가 새 정보.
+
 ## 2026-karpathy-llm-wiki
 - title: LLM Wiki
 - type: article (gist)
