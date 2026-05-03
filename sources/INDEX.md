@@ -17,4 +17,11 @@
 
 ---
 
-_(아직 없음)_
+## 2026-karpathy-llm-wiki
+- title: LLM Wiki
+- type: article (gist)
+- url: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- author: Andrej Karpathy
+- ingested: 2026-05-03
+- path: sources/articles/2026-karpathy-llm-wiki.md
+- summary: wiki/summaries/karpathy-llm-wiki.md
